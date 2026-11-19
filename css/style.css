@@ -9,11 +9,13 @@ body {
     background-color: #123B25;
 }
 
+
 /*Bileder*/
 img {
     max-width: 100%; /*billeder kan aldrig blive større end dens dimensioner*/
     height: auto; /*Bevarer billedernes proportioner.*/
 }
+
 
 /*header*/
 header {
@@ -24,7 +26,7 @@ header {
     padding: 1em;
 }
 
-header img { /*kalder på img inde i header*/
+header img { 
     width: 120px; 
 }
 
@@ -45,6 +47,7 @@ a:hover {
     text-decoration: underline;
     color: #F5F0E6; 
 }
+
 
 /*Footer*/
 footer{
@@ -109,6 +112,7 @@ footer a:hover{
     font-size: 1.2em;
 }
 
+
 /*FORSIDE*/
 /*Hvad er Grøn.Hverdag.? afsnit*/
 .groen-hverdag {
@@ -131,6 +135,7 @@ footer a:hover{
     font-size: 1.2em;
     padding: 1rem;
 }
+
 
 /*Find inspiration afsnit*/
 .inspiration{
@@ -197,6 +202,7 @@ footer a:hover{
     border-radius: 20px;
 }
 
+
 /*Nyhedsbrev tilmelding*/
 .nyhedsbrev {
     background-color: #F5F0E6;
@@ -247,8 +253,7 @@ footer a:hover{
 }
 
 
-/*HUSK AT FORKLAR*/
-.visually-hidden{
+.visually-hidden{ /*Gør der usynligt på hjemmesiden*/
     border: 0;
 	clip: rect(0 0 0 0);
 	height: 1px;
@@ -258,6 +263,8 @@ footer a:hover{
 	position: absolute;
 	width: 1px;
 }
+
+
 
 /*Mad og madspild*/
 .tips-box {
@@ -347,6 +354,8 @@ footer a:hover{
     color: #F5F0E6;
 }
 
+
+
 /*Kontakt-siden*/
 .kontakt-form{
     background-color: #F5F0E6;
@@ -408,6 +417,8 @@ input[type=submit]:hover {
   transition: 0.5s;
 }
 
+
+
 /*Desktop-version*/
 @media screen and (min-width:769px) {
    /*Footer*/
@@ -425,6 +436,7 @@ input[type=submit]:hover {
    .sociale-medier{
         text-align: right;
    }
+
 
     /*Forside*/
     .hero {
@@ -463,6 +475,8 @@ input[type=submit]:hover {
         margin: 6.5em;
     }
 
+    
+    /*mad og madspildssiden*/
     .tips-box {
         margin: 5em;
     }
@@ -477,6 +491,8 @@ input[type=submit]:hover {
         gap: 2em;
     }
 
+
+    /*Kontaktsiden*/
     .kontakt-form {
         max-width: 700px;
         margin: 0 auto;
