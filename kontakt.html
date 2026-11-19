@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+         <a href="index.html"><img src="img/logo.img.png" alt="Grøn. Hverdag. logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="mad-og-madspild.html">Emner</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+        <h1>Kontakt os</h1>
+            <div class="hero-box">
+                <p>Har du spørgsmål, idéer eller feedback?<br>Så må du meget gerne skrive til os.</p>
+            </div>
+        </section>
+    
+
+        <section class="kontakt-form">
+            <h2>Send os en besked</h2>
+            <form>
+                <label for="navn">Navn</label> 
+			    <input id="navn" 
+                    type="text" 
+                    required 
+                    placeholder="Indtast dit navn">
+
+                <label for="mail">E-mail</label>
+			    <input id="mail" 
+                    type="email" 
+                    required 
+                    placeholder="Indtast din e-mail">
+
+                <label for="besked">Besked</label>
+			    <textarea name="besked" 
+                    id="besked" 
+                    required 
+                    placeholder="Skriv din besked her"
+                    rows="8" 
+                    cols="60"></textarea> 
+
+                <input type="submit" name="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+     <footer>
+        <section class="kontakt">
+             <h2>Kontakt</h2>
+            <a href="tel:+4512345678">+45 12 34 56 78</a>
+            <a href="mailto:kontakt@groenhverdag.dk">kontakt@groenhverdag.dk</a>
+            <p>Nørrebrogade 25, 2200 København N</p>
+        </section>
+           
+        <section class="sociale-medier">
+            <h2>Sociale Medier</h2>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </section>
+    </footer>
+</body>
+</html>
